@@ -82,54 +82,6 @@ body {
     margin-bottom: 10px;
   }
   
-  /* Estilos para dispositivos móveis */
-  @media screen and (max-width: 600px) {
-    header img {
-      width: 100px;
-      height: 100px;
-    }
-  
-    .header-info {
-      margin-top: 5px;
-    }
-  
-    header h1 {
-      font-size: 24px;
-    }
-  
-    header p {
-      font-size: 16px;
-    }
-  
-    .menu-toggle {
-      display: block;
-    }
-  
-    .nav-menu {
-      display: none;
-      flex-direction: column;
-      align-items: center;
-      background-color: #333;
-      position: absolute;
-      top: 80px;
-      left: 0;
-      width: 100%;
-    }
-  
-    .nav-menu li {
-      margin: 10px 0;
-    }
-  
-    .nav-menu a {
-      padding: 10px;
-      width: 100%;
-      text-align: center;
-    }
-  
-    .nav-menu.show {
-      display: flex;
-    }
-  }
   .social-links {
     margin-top: 10px;
   }
